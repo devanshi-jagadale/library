@@ -1,0 +1,139 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    text-align:center;
+    margin:auto;
+    background-color: #241811;
+    color:#B99774;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+                    url('https://miro.medium.com/v2/resize:fit:1200/1*6Jp3vJWe7VFlFHZ9WhSJng.jpeg');
+}
+
+img{
+    width:200px;
+    height:300px;
+    overflow:hidden;
+    border-radius: 30px;
+}
+
+.container{
+    display:block;
+}
+
+.book-card {
+    position:relative;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 220px;
+    height:400px;
+    background-color: #333;
+    border:2px solid #060605;
+    border-radius: 10px;
+}
+
+.book-info {
+    position: absolute;
+    top: 0;
+    left: -70px;
+    width: 350px;
+    height: 300px; /* Try a fixed height for now */
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    padding:10px;
+    background-color: #f5e4cd;
+    padding-top:30px
+}
+
+
+#about{
+    font-size: 15px;
+}
+
+
+#currently-reading-books,
+#to-read-books,
+#finished-reading-books {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Optional: spacing between cards */
+    justify-content: center; /* Or space-evenly/space-around */
+}
+
+button{
+    background-color: #b4ab9a;
+    padding:10px;
+    margin:0;
+    margin-right:5px;
+    margin-left:5px;
+    border:2px solid #060605;
+    font-weight:bold;
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color:#5e5951;
+    color: #b4ab9a;
+    font-weight:bold;
+    padding:10px;
+    margin:0;
+    margin-right:5px;
+    margin-left:5px;
+}
+
+h1{
+    font-size:50px;
+    background-color: #141110;
+    padding:10px;
+    border-radius: 30px;
+}
+
+h2{
+    background-color: #443c38;
+    width:100%;
+    max-width:700px;
+    margin-top:30px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+    border:2px solid #060605;
+    border-radius: 30px;
+}
+
+#new-book{
+    width:200px;
+    height:50px;
+    font-size:20px;
+}
+
+form{
+    background-color: #b4ab9a;
+    margin:0;
+    padding:10px;
+    border:2px solid;
+}
+
+.ipques{
+    font-size:20px;
+    margin-bottom:5px;
+}
+
+input{
+    height:20px;
+    width:300px;
+    margin-bottom: 15px;;
+}
+
+form>button{
+    background-color:#5e5951;
+    color: #b4ab9a;
+    margin-top:20px;
+}
+
+form>button:hover{
+    color:rgb(79, 68, 60);
+    background-color: #b4ab9a;
+    border:2px solid rgb(79, 68, 60);
+}
